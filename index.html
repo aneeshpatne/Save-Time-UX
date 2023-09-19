@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <title>REVIEW LIMITS</title>
+</head>
+<body>
+    
+        <button id="button" onclick="myFunction()">CHECK</button>
+        <div id="body"></div>
+        <div id="backbutton"> <img src="./back.svg"></div>
+        <div id="menu-button"><img src="./menu.svg"></div>
+         <div id="heading-text">REVIEW LIMITS</div>
+         <div id="secondary-text">Just one step more</div>
+        <div id="background-box1"></div>
+        <div id="background-box2"></div>
+        <div id="logo-box"></div>
+        <div id="logo-image"></div>
+        <div id="logo-text">REDDIT</div>
+        <div id="time">3</div>
+        
+        <div id="process"></div>
+        <div id="process-bar"></div>
+
+        <div id="logo-box1"></div>
+        <div id="logo-image1"></div>
+        <div id="logo-text1">YOUTUBE</div>
+        <div id="time1">1</div>
+        <div id="process1"></div>
+        <div id="process-bar1"></div>
+
+        <div id="logo-box2"></div>
+        <div id="logo-image2"></div>
+        <div id="logo-text2">NETFLIX</div>
+        <div id="time2">2</div>
+        <div id="process2"></div>
+        <div id="process-bar2"></div>
+
+        <div id="logo-box3"></div>
+        <div id="logo-image3"></div>
+        <h1>PRIME VIDEO</h1>
+        <div id="time3">0.5</div>
+        <div id="process3"></div>
+        <div id="process-bar3"></div>
+
+        <div id="confirm"></div>
+        <script>
+            function myFunction(){
+                const timecolor= document.getElementById("time").innerHTML;
+                const timecolor1=document.getElementById("time1").innerHTML;
+                const timecolor2=document.getElementById("time2").innerHTML;
+                const timecolor3=document.getElementById("time3").innerHTML;
+                
+                if(timecolor>=3){
+                time.style.backgroundColor = "#FF7B7B";
+            }
+            else{
+                time.style.backgroundColor = "#8CF5B6";
+            }
+            if(timecolor1>=3){
+                time1.style.backgroundColor = "#FF7B7B";
+            }
+            else{
+                time1.style.backgroundColor = "#8CF5B6";
+            }
+            if(timecolor2>=2){
+                time2.style.backgroundColor = "#FF7B7B";
+            }
+            else{
+                time2.style.backgroundColor = "#8CF5B6";
+            }
+            if(timecolor3>=3){
+                time3.style.backgroundColor = "#FF7B7B";
+            }
+            else {
+                time3.style.backgroundColor = "#8CF5B6";
+                
+            }
+                
+            }
+        </script>
+        
+        
+    
+    
+</body>
+</html>
